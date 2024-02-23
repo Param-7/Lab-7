@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#form {
+    display: flex;
+    margin-bottom: 20px;
+}
+#newlist {
+    flex-grow: 1;
+    margin-right: 1em;
+}
+#list{
+    list-style: none;
+}
