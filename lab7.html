@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab-7</title>
-    <link rel="stylesheet" href="lab7.css">
-    <link rel="javascript" href="lab7.js">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="lab7.css">
 </head>
 <body>
-    <h1>To do List</h1>
-    <form id="form">
-        <input type="text" id="newlist" placeholder="Add a new list">
-        <button type="submit">Add</button>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Add a new task">
+      <button type="submit" id="addTaskBtn">Add Task</button>
     </form>
-    <ul id="list"></ul>
+    <ul id="taskList">
+    </ul>
+  </div>
+  <script src="lab7.js"></script>
 </body>
 </html>
+
+
+
